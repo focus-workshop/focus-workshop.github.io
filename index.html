@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCUS Workshop @ECCV 2024</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_package/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_package/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon_package/safari-pinned-tab.svg" color="#2980b9">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#2980B9">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="description" content=""> <!-- TODO -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="antoalli.github.io">
+    <meta property="twitter:url" content="https://antoalli.github.io/focus-eccv24w/">
+    <meta name="twitter:title" content="FOCUS Workshop @ECCV 2024">
+    <meta name="twitter:description"
+        content="The FOCUS Workshop @ECCV 2024 presents a unique opportunity for researchers, industry specialists, and users to come together and drive the development of foundational models for a broad spectrum of real-world applications and tasks.">
+    <meta name="twitter:image" content="images/social_package/og-image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/social_package/og-image.jpg">
+    <meta property="og:image:width" content="279">
+    <meta property="og:image:height" content="279">
+    <meta property="og:title" content="FOCUS Workshop @ECCV 2024">
+    <meta property="og:url" content="https://antoalli.github.io/focus-eccv24w/"> <!-- TODO -->
+    <meta property="og:description" content="our description: TODO"> <!-- TODO -->
+</head>
+
+<body>
+        <div id="header" class="container header-container">
+            <div id="not-yet-particles-js" class="particles-js-container"></div>
+
+            <div id="logoIcon">
+                <img src="images/logos/eyeglasses_v1.png">
+            </div>
+            
+            <h1 class="focus-logo"><span class="testShadow">F<i id="oBouncing">O</i>CUS</span></h1>
+            <h1 class="h1-subtitle"><span class="testShadow">FO</span>undation models <span class="testShadow">C</span>reators meet <span class="testShadow">US</span>ers</h1>
+            <p class="subtitle">
+                An <a href="https://eccv.ecva.net/Conferences/2024" target="_blank" class="whiteLink">
+                    ECCV'24 workshop</a> &centerdot; September 29th, 2024 &centerdot; Milan, Italy
+            </p>
+            <nav id="headerNav" class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid justify-content-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation bar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#speakers">Speakers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#program">Program</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#cfp">Submissions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#dates">Dates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#organizers">Organizers</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div id="main" class="container page-container">
+        <div class="image-container" id="imageContainer">
+            <div class="bottom-image"></div>
+            <div class="top-image"></div>
+
+            <div id="imageSeparator">
+                <div id="middleBar"></div>
+            </div>
+        </div>
+
+        <div id="abstract" class="container-md section-container section-first">
+            <div id="main-content">
+                <p>
+                Over the last few years, the field of Artificial Intelligence has witnessed significant growth, largely fueled by the development of large-scale machine learning models. 
+                The foundational models are characterized by extensive training on diverse datasets that encompass various input modalities (e.g. images, text, audio, 3D data), showing excellent flexibility and effectiveness across a wide range of standard NLP and Computer Vision tasks.  
+                Such general-purpose solutions often reveal potentials that go beyond what their creators originally envisioned, motivating users to adopt these models for a broad spectrum of applications. 
+                Nevertheless, the knowledge embedded in these models may not be enough when the final goal goes beyond perception benchmarks. 
+                These considerations spark important questions that can only be answered with a collaborative dialogue between researchers developing these models (creators) and those employing them in downstream tasks (users). Each group brings a unique perspective that will be crucial in shaping the future of this technology. 
+                </p>
+                
+                <p class="lead">
+                The focus of this workshop is to identify and discuss strategies to assess both positive and negative (possibly unexpected) behaviors in the development and use of foundation models. 
+                </p>
+                
+                <p>
+                Particular attention will be given to all those challenges that still prevent their employment in real-world scenarios where visual understanding, uncertainty evaluation, goal-conditioned reasoning, human habits learning, task and motion planning, scene navigation, vision-based manipulation, etc. are crucial. 
+                Our purpose is to foster an open discussion between foundation model creators and users, targeting the analysis of the most pressing <b>open questions</b> for the two communities and inspiring new fruitful collaborations. 
+                </p>
+
+                <p>
+                A few examples are: 
+                <ol>
+                    <li>Should we always lean towards versatile generalist models, or are there circumstances where specialized task-specific models are still preferred?</li>
+                    <li>What are the risk of blindly using foundation models?</li>
+                    <li>What are the downstream tasks that are still challenging for current foundational models?</li>
+                    <li>How the peculiarities of those tasks may guide an effective re-design of foundation models?</li>
+                    <li>Do such difficulties arise from data-related issues, or are they rather caused by the learning objective and network design aspects?</li>
+                    <li>What level of common sense and abstract reasoning is necessary for these models to operate effectively in real-world and possibly onboard robotic agents?</li>
+                    <li>How can we properly benchmark these capabilities in current models? </li>
+                </ol>
+                </p>
+                
+            </div>
+        </div>
+
+        <div id="speakers" class="container-md section-container">
+            <h2>Keynote Speakers</h2>
+            <div id="speakers_container"
+                class="d-flex flex-wrap justify-content-around align-items-center person-container">
+                <div class="card person-card">
+                    <a class="person-link blueLink" href="https://faculty.cc.gatech.edu/~zk15/" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Kira.jpg" alt=""></div>
+                        <div class="card-title person-name" class=> Kira Zsolt</div>
+                        <div class="card-text person-affiliation">Georgia Tech</div>
+                    </a>
+                </div>
+
+    
+                <div class="card person-card">
+                    <a class="person-link blueLink" href="https://imisra.github.io/" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Misra.jpg" alt=""></div>
+                        <div class="card-title person-name">Ishan Misra</div>
+                        <div class="card-text person-affiliation">Facebook AI Research</div>
+                    </a>
+                </div>
+                <div class="card person-card">
+                    <a class="person-link blueLink" href="https://hildekuehne.github.io/" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Hilde.jpg" alt=""></div>
+                        <div class="card-title person-name">Hilde Kuehne</div>
+                        <div class="card-text person-affiliation">University of Bonn</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="program" class="container-md section-container">
+            <h2>Program</h2>
+            <p><strong style="color: red;">Note: All quoted times refer to CEST and are subject to change (non-definitive).</strong></p>
+            <div id="program_container" class="container program-container">
+                <div class="row program-row">
+                    <div class="col-md-2"><strong>9:00 - 9:10</strong></div>
+                    <div class="col-md-10">Opening remarks</div>
+                </div>
+                <div class="row program-row">
+                    <div class="col-md-2"><strong>9:10 - 9:45</strong></div>
+                    <div class="col-md-10">Invited talk #1 by Zsolt Kira</div>
+                </div>
+                <div class="row program-row">
+                    <div class="col-md-2"><strong>9:45 - 10:20</strong></div>
+                    <div class="col-md-10">Invited talk #2 by Ishan Misra</div>
+                </div>
+                <div class="row program-row">
+                    <div class="col-md-2"><strong>10:20 - 11:00</strong></div>
+                    <div class="col-md-10"><b>Coffee break &#9749</b></div>
+                </div>
+                <div class="row program-row">
+                    <div class="col-md-2"><strong>11:00 - 11:35</strong></div>
+                    <div class="col-md-10">Invited talk #3 by Hilde Kuehne</div>
+                </div>
+                <div class="row program-row">
+                    <div class="col-md-2"><strong>11:35 - 12:45</strong></div>
+                    <div class="col-md-10">Poster Session</div>
+                </div>
+                <div class="row program-row">
+                    <div class="col-md-2"><strong>12:45 - 13:00</strong></div>
+                    <div class="col-md-10">Closing remarks</div>
+                </div>
+            </div>
+
+            <!-- LIST ACCEPTED WORKSHOPS -->
+            <!-- <p style="margin-top: 2em">Please check the <a
+                    href="https://eccv.ecva.net/Conferences/2024/Milano"
+                    target="_blank">conference attendance details</a> in advance, 
+                    including the <a
+                    href="https://eccv.ecva.net/Conferences/2024" target="_blank">room  
+                    assignments</a> for the workshops.</p> 
+            -->
+        </div>
+
+        <div id="cfp" class="container-md section-container">
+            <h2 style="margin-top: 1em;">Call for Contributions</h2>
+            <p> We invite participants to submit their work to the FOCUS Workshop a full paper (Proceeding - 8 pages in length excluding references) and short paper (Non-archival - max. 4 pages excluding references). 
+            </p>
+            <h3>Full-Paper Submissions</h3>
+            <p>Full papers must present original research, not published elsewhere, and follow the <a
+                    href="https://eccv.ecva.net/Conferences/2024/SubmissionPolicies" target="_blank">ECCV
+                    main conference format</a> with a length of 4 to 8 pages (extra pages with references only are
+                allowed). Supplemental materials are <b>not</b> allowed. Accepted full papers will be included in the
+                conference proceedings.
+            </p>
+            <h3>Short-paper Submissions</h3>
+            <p>We welcome short papers, which may serve works of a more speculative or preliminary nature that may
+                not be fit for a full-length paper. Authors are also welcome to submit short papers for previously
+                or concomitantly published works that could foster the workshop objectives. 
+                Short-papers will be presented <b>without</b> inclusion in the proceedings.</p>
+
+            <h3>Topics of Interest</h3>
+            <p>The FOCUS workshop welcomes contributions on a broad range of topics concerning robustness, generalization, and transparency of computer vision. Areas of interest encompass, but are not limited to:</p>
+            <ol>
+                <li>New vision-and-language applications</li>
+                <li>Supervised vs unsupervised based foundation model and downstream tasks</li>
+                <li>Robustness and generalization</li>
+                <li>Few-shot, continual and life-long learning of foundation model</li>
+                <li>Open set, out-of-distribution detection and uncertainty estimation</li>
+                <li>Perceptual reasoning and decision making: alignment with human intents and modeling</li>
+                <li>Novel evaluation schemes and benchmarks</li>
+                <li>Task-specific vs general-purpose foundational models</li>
+                <li>Efficient foundation model adaptation methods</li>
+                <li>Prompt and Visual instruction tuning and selection</li>
+                <li>Ethics and bias in prompting</li>
+                <li>Interpretability and explainability</li>
+            </ol>
+
+            <h3>Guidelines</h3>
+            <!-- <p>All submissions must be made through the <a href="https://cmt3.research.microsoft.com/FOCUS2024" target="_blank">CMT system</a>, before the <a href=" #dates">deadline</a>.</p> -->
+            <p>All submissions must be made through the CMT system, before the <a href=" #dates">deadline</a> <strong>(More details coming soon 🔨)</strong>.</p>
+
+            <p>The FOCUS Workshop reviewing is <b>double-blind</b>. Authors of all submissions must follow the <a href="https://eccv.ecva.net/Conferences/2024/SubmissionPolicies" target="_blank"> main conference policy on anonymity</a>. We encourage authors to follow the <a href="https://eccv.ecva.net/Conferences/2024/AuthorPractices" target="_blank"> ECCV 2024 Suggested Practices for Authors</a>, except in what concerns supplemental material, which is not allowed.</p>
+            <p>While we encourage reproducibility, we welcome preliminary/speculative works where source codes or data might need more time until broad disclosure. We still expect evidence of ethics clearance if the submission uses novel data sources from human subjects.</p>
+            <p>FOCUS Workshop reviewers must follow the <a
+                    href="https://eccv.ecva.net/Conferences/2024/EthicsGuidelines"
+                    target="_blank">ECCV 2024 Ethics Guidelines for Reviewers</a>. We encourage reviewers to follow the
+                <a href="https://eccv.ecva.net/Conferences/2024/ReviewerGuide" target="_blank">ECCV 2024
+                    Reviewer Guidelines</a>, and <a href="https://docs.google.com/presentation/d/1HE_Pwcdy_3eVCIdb1o1VjtwqX5KTvddukhRxZVAOnIY/edit?usp=sharing"
+                    target="_blank">Tips to Write Good Reviews</a>.
+            </p>
+
+            
+            <!-- <h3>Camera-ready instructions</h3>
+            <p> Coming soon. </p> -->
+            <!-- <h3>Posters</h3>
+            <p>We will organize a poster session, inside the workshop room. All
+                accepted works will be assigned to one of the poster sessions, including those selected for the oral
+                spotlights.</p <p><b>The poster size for workshops differs from the main conference's.</b> The panel
+            size will be 95.4 cm wide x 138.8 cm tall (aspect ratio 0.69:1). A0 paper in portrait orientation will fit
+            the panel with some margin.</p> 
+            <p>The ECCV organizers partnered with an on-site printing service from which you may collect your printed
+                poster: more information at the <a
+                    href="" target="_blank">
+                    main conference attendance info site</a>.</p> -->
+
+            <!-- <h2>Accepted Works</h2> -->
+            <!-- <p>Workshop proceedings at
+                <a target="_blank" href="TODO">TheCVF Open
+                    Access</a>,
+                <a target="_blank" href="TODO">IEEE Computer
+                    Society</a>,
+                and <a target="_blank" href="TODO">IEEE
+                    Xplore.</a>
+            </p> -->
+
+            <!-- <h3>Poster session #1 (morning):</h3>
+            <ul class="accepted-papers">
+                <li><em>TITLE1.</em> Author1, Author2, ..., AuthorN. (<a target="_blank"
+                        href="submissions/subm1.pdf">Long Paper</a>)</li>
+                <li><em>TITLE2.</em> Author1, Author2, ..., AuthorN. (<a target="_blank"
+                    href="submissions/subm2.pdf">Long Paper, Oral</a>)</li>
+                <li><em>TITLE3.</em> Author1, Author2, ..., AuthorN. (<a target="_blank"
+                    href="submissions/subm2.pdf">Short Paper</a>)</li>
+            </ul> -->
+            
+
+        </div>
+
+        <div id="dates" class="container-md section-container">
+            <h2>Important Dates</h2>
+            <strong>More details on submission schedule and important dates coming soon! 🔨</strong>
+            <div id="dates_container" class="container dates-container">
+                <div class="row dates-row">
+                    <div class="col-md-3 col-lg-2">
+                        <span class="announce_date">To be announced</span>
+                    </div>
+                    <div class="col-md-9">
+                        Contributed submissions deadline (23:59 GMT)
+                    </div>
+                </div>
+                <div class="row dates-row">
+                    <div class="col-md-3 col-lg-2">
+                        <span class="announce_date">To be announced</span>
+                    </div>
+                    <div class="col-md-9">
+                        Acceptance of contributions announced to authors
+                    </div>
+                </div>
+                <div class="row dates-row">
+                    <div class="col-md-3 col-lg-2">
+                        <span class="announce_date">To be announced</span>
+                    </div>
+                    <div class="col-md-9">
+                        Full-paper camera-ready submission deadline
+                    </div>
+                </div>
+                <div class="row dates-row">
+                    <div class="col-md-3 col-lg-2">
+                        <span class="announce_date">To be announced</span>
+                    </div>
+                    <div class="col-md-9">
+                        Workshop day (full day)
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <div id="organizers" class="container-md section-container">
+            <h2>Organizers</h2>
+            <div id="organizers_container"
+                class="d-flex flex-wrap justify-content-around align-items-center person-container">
+                <div class="card person-card">
+                    <a class="person-link" href="https://scholar.google.com/citations?user=yQqW5q0AAAAJ&hl=it" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Antonio.png" alt=""></div>
+                        <div class="card-title person-name" class=>Antonio Alliegro</div>
+                        <div class="card-text person-affiliation">Politecnico di Torino</div>
+                    </a>
+                </div>
+                <div class="card person-card">
+                    <a class="person-link" href="https://scholar.google.com/citations?user=7MJdvzYAAAAJ&hl=en" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Francesca.jpg" alt=""></div>
+                        <div class="card-title person-name">Francesca Pistilli</div>
+                        <div class="card-text person-affiliation">Politecnico di Torino</div>
+                    </a>
+                </div>
+                <div class="card person-card">
+                    <a class="person-link" href="https://pengsongyou.github.io/" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Songyou.jpeg" alt=""></div>
+                        <div class="card-title person-name">Songyou Peng</div>
+                        <div class="card-text person-affiliation">ETH Zurich</div>
+                    </a>
+                </div>
+                <div class="card person-card">
+                    <a class="person-link" href="https://biplab-banerjee.github.io/" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Biplab.gif" alt=""></div>
+                        <div class="card-title person-name">Biplab Banerjee</div>
+                        <div class="card-text person-affiliation">IIT Bombay</div>
+                    </a>
+                </div>
+                <div class="card person-card">
+                    <a class="person-link" href="https://europe.naverlabs.com/people_user_naverlabs/gabriela-csurka/" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Gabriela.jpeg" alt=""></div>
+                        <div class="card-title person-name">Gabriela Csurka</div>
+                        <div class="card-text person-affiliation">Naver Labs Europe</div>
+                    </a>
+                </div>
+                <div class="card person-card">
+                    <a class="person-link" href="https://scholar.google.it/citations?user=i4rm0tYAAAAJ&hl=en" target="_blank">
+                        <div class="card-img-top framed-photo"><img src="images/people/Giuseppe.jpeg" alt=""></div>
+                        <div class="card-title person-name">Giuseppe Averta</div>
+                        <div class="card-text person-affiliation">Politecnico di Torino</div>
+                    </a>
+                </div>
+             </div>
+        </div>
+
+        <div id="supporters" class="container-md section-container">
+            <p>Supported by</p>
+            <div id="supporters_container"
+                class="d-flex flex-wrap justify-content-left align-items-top person-container">
+                <div class="card supporter-card">
+                    <a class="supporter-link" href="https://elsa-ai.eu/" target="_blank">
+                        <div class="card-body"><img class="supporter-image" src="images/logos/elsa.png" alt=""></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="supporters" class="container-md section-colophon">
+            <p>
+                Images source <a href="https://unsplash.com/it/foto/foto-ravvicinata-di-occhiali-da-vista-w7ZyuGYNpRQ">[1]</a>, <a href="https://unsplash.com/it/foto/macchina-industriale-in-bianco-e-nero-dRMQiAubdws">[2]</a>, <a href="https://www.cbtnews.com/autonomous-vehicles-a-look-at-the-future-of-self-driving-cars/">[3]</a>, <a href="https://unsplash.com/it/foto/persona-che-tiene-il-computer-della-compressa-nera-NrMGL5MR8uk">[4]</a>, <a href="https://blogs.nvidia.com/blog/atlas-meditech-brain-surgery-ai-digital-twins/">[5]</a>.
+            </p>
+        </div>
+
+    </div>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/particles-handler.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        const loadParticles = () => {
+            $('.particles-js-container').attr('id', 'particles-js');
+            particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
+                // Loaded
+                console.log('Particles loaded');
+                // $('.particles-js-container').fadeIn(500);
+                $(document.getElementById("particles-js")).animate({opacity: 1}, 2000);
+            });
+
+        };
+        loadParticles();
+    </script>
+</body>
+</html>
