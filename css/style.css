@@ -464,6 +464,18 @@ acronym {
 .supporter-card {
     border: none;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.supporter-link {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0px 22px;
 }
 
 .supporter-image {
